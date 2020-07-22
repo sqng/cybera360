@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  strapinote:
+    command: bash -c "yarn install && yarn test"
+    restart: "no"
+  mongoenote:
+    logging:
+        driver: "none"
+  redisnote:
+    logging:
+        driver: "none"

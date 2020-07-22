@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notes",
+  "info": {
+    "name": "Note"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false
+  },
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "tags": {
+      "collection": "tags",
+      "via": "notes",
+      "dominant": true
+    },
+    "autoid": {
+      "type": "biginteger",
+      "unique": true
+    }
+  }
+}

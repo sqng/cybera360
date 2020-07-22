@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/v1/note\/tag\/:tag",
+      "handler": "note.findByTag",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/v1/note",
+      "handler": "note.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/v1/note/:autoid",
+      "handler": "note.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/note/funny",
+      "handler": "note.newFunnyNote",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/note",
+      "handler": "note.newNote",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/note/:autoid",
+      "handler": "note.editNote",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/note/:autoid",
+      "handler": "note.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/note",
+      "handler": "note.deleteAll",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
