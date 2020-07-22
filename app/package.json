@@ -44,7 +44,7 @@
     ],
     "testEnvironment": "node",
     "verbose": true,
-	"testTimeout": 50000
+	"testTimeout": 300000
   },
   "license": "MIT"
 }
