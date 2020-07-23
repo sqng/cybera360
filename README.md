@@ -12,7 +12,7 @@ This app can be run on Docker in either development or test mode.
 
 This will start all containers in detached mode. Note that initial run may take **more than 10 minutes** for the dependencies installation. Check logs via `docker-compose logs --tail=all` When you see the following on the logs then server is ready.
 
-![] (images/ready.png)
+![] (images/ready.PNG)
 
 With the default configuration, the endpoint can be accessed through (example to get all tags):
 ```bash
@@ -30,7 +30,7 @@ To bring down the containers, use `docker-compose down`
 
 This will run all the units tests, displaying result and code coverage information in the console. Container will exit once test run is complete.
 
-![](images/unittest.png)
+![](images/unittest.PNG)
 
 
 ## Configuration
